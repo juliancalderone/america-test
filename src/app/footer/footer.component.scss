@@ -1,0 +1,47 @@
+.footer {
+  padding: 3rem 0;
+  //   height: 200px;
+  background: #0050E4;
+
+  .logo-wrapper {
+    img {
+      height: 120px;
+    }
+
+  }
+
+  .col-lg-6.sitemap {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    h5 {
+      font-size: 20px;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 1rem;
+
+      li {
+        a {
+          text-decoration: none;
+          color: white;
+
+          &:hover {
+            color: #61f700;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .col-lg-6 {
+        width: 50%;
+    }
+}

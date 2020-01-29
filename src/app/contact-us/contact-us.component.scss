@@ -1,0 +1,41 @@
+.contact-us {
+  .form-wrapper {
+    margin-top: 3rem;
+
+    .title {
+      h1 {
+        font-size: 1.5rem;
+        color: #252525;
+      }
+      p {
+          margin-bottom: 0;
+      }
+    }
+    form {
+        input {
+            width: 100%;
+            margin-top: 1rem;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            border: 1.5px solid lightgray;
+            outline: 0;
+        }
+        button {
+            margin-top: 1rem;
+            background: #61f700;
+            color: white;
+            padding: 0.3rem 3rem;
+            border-radius: 20px;
+            .loading-email {
+                height: 20px;
+            }
+            &:disabled {
+                background:#61f700;
+                opacity: 0.5;
+                color: white;
+            }
+        }
+    }
+  }
+}
